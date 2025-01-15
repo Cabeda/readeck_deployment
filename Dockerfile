@@ -5,7 +5,7 @@ ENV READECK_LOG_LEVEL=info
 ENV READECK_SERVER_HOST=0.0.0.0
 ENV READECK_SERVER_PORT=8000
 ENV READECK_SERVER_PREFIX=/
-ENV READECK_ALLOWED_HOSTS=localhost,readeck-crimson-water-318.fly.dev
+ENV READECK_ALLOWED_HOSTS=localhost,readeck-crimson-water-318.fly.dev,read.cabeda.dev
 ENV READECK_USE_X_FORWARDED=true
 
 # Expose the port that the application will run on
