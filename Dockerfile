@@ -1,4 +1,4 @@
-FROM codeberg.org/readeck/readeck-nightly:latest
+FROM codeberg.org/readeck/readeck:latest
 
 # Set environment variables
 ENV READECK_LOG_LEVEL=info
