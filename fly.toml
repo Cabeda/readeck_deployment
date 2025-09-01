@@ -1,5 +1,5 @@
 app = 'readeck-crimson-water-318'
-primary_region = 'mad'
+primary_region = 'cdg'
 
 [http_service]
   internal_port = 8000
@@ -17,3 +17,8 @@ primary_region = 'mad'
 [mounts]
   source = "readeck_data"
   destination = "/readeck"
+
+
+[machines]
+  min_machines_running = 1
+  max_machines_running = 2
