@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   app:
-    image: codeberg.org/readeck/readeck:latest
+    image: codeberg.org/readeck/readeck-nightly:latest
     container_name: readeck
     ports:
       - 8000:8000
