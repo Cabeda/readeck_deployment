@@ -1,4 +1,4 @@
-FROM codeberg.org/readeck/readeck:0.22.3
+FROM codeberg.org/readeck/readeck:0.23.0
 
 # Set environment variables
 ENV READECK_LOG_LEVEL=info
